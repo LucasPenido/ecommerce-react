@@ -1,0 +1,66 @@
+.cart {
+  float: left;
+  width: 65%;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+  position: relative;
+  height: auto;
+  min-height: 100% !important;
+  margin-left: 1%;
+}
+
+.checkout {
+  float: right;
+  width: 32%;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  margin: 0 1%;
+  padding-left: 2rem;
+}
+
+.grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+  gap: 21px 0px;
+}
+
+.image {
+  float: left;
+  width: 20%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.content {
+  float: left;
+  width: 80%;
+}
+
+.details {
+  float: left;
+  width: 50%;
+}
+
+.control {
+  float: left;
+}
+
+.control input {
+  width: 2.5rem;
+  height: 2rem;
+  border: 1.5px solid #cccccc;
+  border-radius: 4px;
+  padding-left: 0.2rem;
+}
+
+.price {
+  float: right;
+}

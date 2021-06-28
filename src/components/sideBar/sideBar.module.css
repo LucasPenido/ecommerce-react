@@ -1,0 +1,16 @@
+.sideBar {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  overflow: hidden;
+  padding: 20px;
+  float: left;
+  width: 10%;
+  border: solid #dddddd;
+  border-width: 0 2px 0 0;
+}
+
+.radio {
+  display: block;
+  position: relative;
+}
